@@ -1,0 +1,26 @@
+.name {
+    font-size: 28px;
+font-weight: 800;
+line-height: 33px;
+letter-spacing: 0%;
+text-align: end;
+box-sizing: content-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+
+opacity: 0.8;
+
+}
+.btn {
+    font-size: 21px;
+font-weight: 800;
+line-height: 33px;
+letter-spacing: 0%;
+text-align:left;
+display: flex;
+flex-direction: column;
+justify-content:end;
+align-items: center;
+padding: 17px 24px 17px 24px;
+
+}
