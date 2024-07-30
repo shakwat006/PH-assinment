@@ -4,25 +4,41 @@
     font-family: 'Courier New', Courier, monospace;
     color:rgb(10, 7, 7);
 }
+.resume{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 170px;
+}
 .name {
     font-size: 28px;
-font-weight: 800;
-line-height: 33px;
-letter-spacing: 0%;
-text-align: left;
-padding: 30px 100px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 30px 170px;
+}
+
+.resume-b{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 11px 18px 11px 18px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+
 }
 
 #hero {
     width: 1044px;
-    
     background-image: url(../assets/Hero-bg.png);
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin: 0 auto;
     
 }
 
@@ -78,7 +94,7 @@ padding: 30px 100px;
     width: 820px;
     height: 1004px;
     background-color:rgb(178, 189, 216);
-    margin-top: 80px;
+    margin: 80px auto 0;
     
     
 }
@@ -195,7 +211,7 @@ margin-bottom: 24px;
     
     background-color: rgb(216, 228, 228);
     
-    margin-top: 66px;
+    margin: 66px auto 0;
 }
 
 .you-d{
@@ -231,7 +247,7 @@ margin-bottom: 24px;
 }
 #card{
     width: 820px;
-    margin-top: 50px;
+    margin: 50px auto 0;
     
 }
 .html-css{
@@ -338,10 +354,12 @@ margin-bottom: 24px;
 
 #submit{
     width: 750px;
-    padding: 48px 36px 48px 36px;
+    padding: 36px 48px 36px 48px;
     background-image: url(../assets/handshake.jpg);
     background-size: cover;
     background-position: center;
+    border-radius: 16px;
+    margin: 0 auto;
     
 }
 .submit-c{
@@ -362,4 +380,50 @@ margin-bottom: 24px;
     color: rgb(255, 255, 255);
     margin-bottom: 24px;
 
+}
+
+.feed-d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+.feed{
+    margin-right: 16px;
+    width: 300px;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 14px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+.button{
+    font-size: 15px;
+    font-weight:600;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+
+.cmd{
+    width: 750px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding: 32px 70px 32px 70px;
+    border-radius: 16px;
+    background: rgba(29, 48, 92, 0.103);
+    margin: 60px auto 0;
+}
+.shakwat{
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 300px;
+    text-align: center;
+    line-height: 40px;
+}
+.img-p{
+    padding: 10px 10px 10px 10px;
 }
